@@ -1,0 +1,30 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    text-align: right;
+}
+
+header>div {
+    border: 1px solid black;
+    margin: 10px;
+}
+
+ul {
+    margin: 10px;
+    background-color: red;
+}
+
+li {
+    display: inline;
+
+}
