@@ -2,21 +2,24 @@
 * {
     margin: 0;
     padding: 0;
-}
-
-body {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 header {
-    position: fixed;
+    position: sticky;
+    top: 5px;
     width: 100%;
     text-align: right;
 }
 
-header>div {
+main {
     border: 1px solid black;
+
+}
+
+header>div {
     margin: 10px;
+    border: 1px solid black;
 }
 
 ul {
